@@ -12,7 +12,7 @@ const some = function (a) {
 const add = function (num1) {
     let counter = 0;
     const x = function (num2) {
-        counter += 1 + num2 + num2;
+        counter += 1 + num1 + num2;
         return counter;
     };
     return x;
